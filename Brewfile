@@ -1,6 +1,4 @@
 # Taps
-tap 'homebrew/cask-fonts'
-tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'stripe/stripe-cli'
 
@@ -16,7 +14,7 @@ brew 'svn' # Needed to install fonts
 
 # Apps
 cask '1password'
-brew '1password-cli'
+cask '1password-cli'
 cask 'appcleaner'
 cask 'arq'
 cask 'chatgpt'
@@ -67,8 +65,6 @@ cask 'font-open-sans'
 cask 'font-roboto'
 cask 'font-source-code-pro-for-powerline'
 cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
 
 # Mac App Store
 mas 'Harvest', id: 506189836
