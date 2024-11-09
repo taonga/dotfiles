@@ -42,7 +42,7 @@ mkdir $HOME/Code
 mkdir $HOME/Herd
 
 # Clone Github repositories
-./clone.sh
+# ./clone.sh
 
 # Symlink the Mackup config file to the home directory
 ln -s ./.mackup.cfg $HOME/.mackup.cfg
