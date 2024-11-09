@@ -5,40 +5,26 @@ tap 'homebrew/bundle'
 tap 'stripe/stripe-cli'
 
 # Binaries
-brew 'awscli'
 brew 'bash' # Latest Bash version
-brew 'bat' # Used for spatie/visit
 brew 'coreutils' # Those that come with macOS are outdated
-brew 'ffmpeg'
 brew 'gh'
 brew 'git'
-brew 'grep'
 brew 'httpie'
-brew 'jq' # Used for spatie/visit
 brew 'mackup'
 brew 'mas' # Mac App Store manager
-brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-brew 'stripe/stripe-cli/stripe'
-brew 'stripe/stripe-mock/stripe-mock'
 brew 'svn' # Needed to install fonts
-
-# Spatie Medialibrary
-brew 'jpegoptim'
-brew 'optipng'
-brew 'pngquant'
-brew 'svgo'
-brew 'gifsicle'
-
-# Development
-brew 'imagemagick'
-brew 'yarn'
 
 # Apps
 cask '1password'
 brew '1password-cli'
-cask 'caffeine'
+cask 'appcleaner'
+cask 'arq'
+cask 'chatgpt'
+cask 'cleanshot'
+cask 'cursor'
+cask 'dash'
 cask 'discord'
-cask 'docker'
+cask 'dropbox'
 cask 'figma'
 cask 'firefox'
 cask 'github'
@@ -46,24 +32,34 @@ cask 'google-chrome'
 cask 'helo'
 cask 'herd'
 cask 'httpie'
-cask 'imageoptim'
-cask 'pastebot'
-cask 'readdle-spark'
-cask 'screenflow'
+cask 'limitless'
+cask 'linear-linear'
+cask 'missive'
+cask 'nova'
+cask 'notion'
+cask 'notion-calendar'
+cask 'phpstorm'
+cask 'quip'
+cask 'raycast'
+cask 'rectangle-pro'
+cask 'reflect'
+cask 'soulver'
+cask 'spotify'
 cask 'slack'
+cask 'superhuman'
 cask 'tableplus'
-cask 'telegram-desktop'
-cask 'the-unarchiver'
+cask 'tableau'
+cask 'tailscale'
 cask 'tinkerwell'
 cask 'transmit'
-cask 'tunnelbear'
-cask 'tuple'
 cask 'visual-studio-code'
+cask 'whatsapp'
+cask 'whimsical'
+cask 'wordpresscom-studio'
 cask 'zoom'
 
 # Quicklook
 cask 'qlmarkdown'
-cask 'quicklook-json'
 
 # Fonts
 cask 'font-lato'
@@ -75,11 +71,11 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas 'Byword', id: 420212497
-mas 'Giphy Capture', id: 668208984
-mas 'Keynote', id: 409183694
-mas 'MyWoosh', id: 1498889644
-mas 'Numbers', id: 409203825
-mas 'Speedtest', id: 1153157709
-mas 'Spring', id: 1508706541
+mas 'Harvest', id: 506189836
+mas 'Windows App', id: 1295203466
+mas 'Day One', id: 1055511498
+mas 'Velja', id: 1607635845
+mas 'Endel', id: 1346247457
 mas 'Things', id: 904280696
+mas 'Prompt 3', id: 1594420480
+
