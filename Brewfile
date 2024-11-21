@@ -8,7 +8,7 @@ brew 'coreutils' # Those that come with macOS are outdated
 brew 'gh'
 brew 'git'
 brew 'httpie'
-brew 'mackup'
+# brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'svn' # Needed to install fonts
 
