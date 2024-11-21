@@ -8,7 +8,7 @@ brew 'coreutils' # Those that come with macOS are outdated
 brew 'gh'
 brew 'git'
 brew 'httpie'
-# brew 'mackup'
+# brew 'mackup' #Turned off due to causing issues with macOS Sonoma
 brew 'mas' # Mac App Store manager
 brew 'svn' # Needed to install fonts
 
@@ -70,11 +70,15 @@ cask 'font-source-code-pro-for-powerline'
 cask 'font-source-code-pro'
 
 # Mac App Store
-mas 'Harvest', id: 506189836
-mas 'Windows App', id: 1295203466
+mas '1Password for Safari', id: 1569813296
+mas 'Bear: Markdown Notes', id: 1091189122
 mas 'Day One', id: 1055511498
-mas 'Velja', id: 1607635845
 mas 'Endel', id: 1346247457
-mas 'Things', id: 904280696
+mas 'Harvest', id: 506189836
+mas 'Mela - Recipe Manager', id: 1568924476
 mas 'Prompt 3', id: 1594420480
+mas 'Soulver 3', id: 1508732804
+mas 'Things', id: 904280696
+mas 'Velja', id: 1607635845
+mas 'Windows App', id: 1295203466
 
