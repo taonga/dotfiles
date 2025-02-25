@@ -16,50 +16,20 @@ brew 'svn' # Needed to install fonts
 cask '1password'
 cask '1password-cli'
 cask 'appcleaner'
-cask 'arq'
-cask 'chatgpt'
 cask 'cleanshot'
-cask 'dash'
-cask 'discord'
-cask 'dropbox'
 cask 'figma'
-cask 'firefox'
-cask 'ghostty'
-cask 'github'
 cask 'google-chrome'
 cask 'google-drive'
-cask 'granola'
-cask 'helo'
-cask 'herd'
-cask 'httpie'
-cask 'logi-options+'
-cask 'loom'
 cask 'linear-linear'
-cask 'microsoft-office'
 cask 'missive'
 cask 'notion'
-cask 'notion-calendar'
-cask 'nova'
-cask 'outline'
-cask 'quip'
-cask 'raycast'
-cask 'rectangle-pro'
-cask 'soulver'
-cask 'spotify'
+cask 'rectangle'
 cask 'steam'
 cask 'slack'
-cask 'superhuman'
-cask 'superwhisper'
-cask 'tableplus'
-cask 'tableau'
-cask 'tailscale'
-cask 'tinkerwell'
 cask 'transmit'
 cask 'visual-studio-code'
 cask 'whatsapp'
-cask 'whimsical'
 cask 'windsurf'
-cask 'wordpresscom-studio'
 cask 'zoom'
 
 # Quicklook
@@ -73,16 +43,6 @@ cask 'font-source-code-pro-for-powerline'
 cask 'font-source-code-pro'
 
 # Mac App Store
-mas '1Password for Safari', id: 1569813296
-mas 'Bear: Markdown Notes', id: 1091189122
-mas 'Day One', id: 1055511498
-mas 'Endel', id: 1346247457
 mas 'Harvest', id: 506189836
 mas 'Hidden Bar', id: 1452453066
-mas 'Mela - Recipe Manager', id: 1568924476
-mas 'Prompt 3', id: 1594420480
-mas 'Soulver 3', id: 1508732804
-mas 'Things', id: 904280696
 mas 'Velja', id: 1607635845
-mas 'Windows App', id: 1295203466
-
